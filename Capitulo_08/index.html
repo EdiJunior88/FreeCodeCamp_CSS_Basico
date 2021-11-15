@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Especificar soluções para quando uma tipografia não estiver disponível</title>
+</head>
+<body>
+  <h1>Especificar soluções para quando uma tipografia não estiver disponível</h1>
+  <p>
+    Por padrão, existem várias tipografias disponíveis em todos os navegadores. As tipografias padrão são: <code><mark>monospace</mark></code>, <code><mark>serif</mark></code> e <code><mark>sans-serif</mark></code>.
+
+    <br><br>
+
+    Quando uma tipografia não estiver disponível, você pode dizer ao navegador para usar outra tipografia.
+
+    <br><br>
+
+    Por exemplo, se um elemento usa a tipografia <code><mark>Helvetica</mark></code>, mas você quer que ele use<code> <mark>sans-serif</mark></code> quando a <code><mark>Helvetica</mark></code> não estiver disponível, você pode fazer assim:
+
+    <br>
+
+    <div>
+      <code>
+        p {
+        <br>
+        &nbsp; font-family: Helvetica, sans-serif;
+        <br>
+        }
+      </code>
+    </div>
+    
+    <br>
+
+    O nome dessas tipografias não diferenciam maiúsculas de minúsculas. Além disso, eles não precisam de aspas porque são palavras-chave do CSS.
+
+    <br><br>
+
+    Para começar, aplique a tipografia <code><mark>monospace</mark></code> ao elemento <code><mark>h2</mark></code>, fazendo com que o elemento tenha duas tipografias - <code><mark>Lobster</mark></code> e <code><mark>monospace</mark></code>.
+
+    <br><br>
+
+    No desafio anterior, você importou a tipografia <code><mark>Lobster</mark></code> usando a tag <code><mark>link</mark></code>. Comente a importação da tipografia <code><mark>Lobster</mark></code> (usando os comentários HTML que você aprendeu antes) do Google Fonts para que ela não esteja mais disponível. Note como o elemento <code><mark>h2</mark></code> muda para a tipografia <code><mark>monospace</mark></code>.
+
+    <br><br>
+
+    <strong>Observação</strong>: se você tiver a tipografia <code><mark>Lobster</mark></code> instalada em seu computador, não verá a mudança porque seu navegador é capaz de encontrá-la.
+  </p>
+</body>
+</html>
