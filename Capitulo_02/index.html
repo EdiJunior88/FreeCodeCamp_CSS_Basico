@@ -14,7 +14,7 @@
 
     <br><br>
 
-    Quando você digitou <code>&lth2 style="color: red;"&gtCatPhotoApp&gt&lt/h2&gt</code>, você estava estilizando individualmente esse elemento h2 de forma inline.
+    Quando você digitou <code><mark>&lth2 style="color: red;"&gtCatPhotoApp&gt&lt/h2&gt</mark></code>, você estava estilizando individualmente esse elemento <code><mark>h2</mark></code> de forma inline.
 
     <br><br>
 
@@ -22,7 +22,7 @@
 
     <br><br>
 
-    Na parte superior do seu código, crie uma tag style:
+    Na parte superior do seu código, crie uma tag <code><mark>style</mark></code>:
 
     <br>
 
@@ -36,23 +36,31 @@
     
     <br>
 
-    Dentro desse bloco de estilo, você pode criar um seletor CSS para todos os elementos de h2. Por exemplo, se quisesse que todos os elementos h2 fossem vermelhos, você adicionaria uma regra de estilo semelhante a esta:
-
-    <br>
-
-    <style>
-      h2 {
-        color: red;
-      }
-    </style>
-    
-    <br>
-
-    Observe que é importante ter abertura e fechamento de chaves ({ e }) em torno das regras de estilo de cada elemento. Você também precisa se certificar de que a definição de estilo do seu elemento está entre a abertura e o fechamento das tags. Finalmente, certifique-se de adicionar um ponto e vírgula ao final das regras de estilo de cada um dos seus elementos.
+    Dentro desse bloco de estilo, você pode criar um seletor CSS para todos os elementos de <code><mark>h2</mark></code>. Por exemplo, se quisesse que todos os elementos <code><mark>h2</mark></code> fossem vermelhos, você adicionaria uma regra de estilo semelhante a esta:
 
     <br><br>
 
-    Exclua o atributo de estilo h2 e, em vez disso, crie uma tag style. Adicione o CSS necessário para transformar a cor de todos os elementos h2 em azul.
+    <div>
+      <code>
+        &ltstyle&gt
+          <br>
+          &nbsp; h2 {
+            <br>
+            &nbsp;&nbsp;&nbsp; color: red;
+            <br>
+          &nbsp;&nbsp;}
+          <br>
+        &lt/style&gt
+      </code>
+    </div>
+    
+    <br>
+
+    Observe que é importante ter abertura e fechamento de chaves (<code><mark>{</mark></code> e <code><mark>}</mark></code>) em torno das regras de estilo de cada elemento. Você também precisa se certificar de que a definição de estilo do seu elemento está entre a abertura e o fechamento das tags. Finalmente, certifique-se de adicionar um ponto e vírgula ao final das regras de estilo de cada um dos seus elementos.
+
+    <br><br>
+
+    Exclua o atributo de estilo <code><mark>h2</mark></code> e, em vez disso, crie uma tag <code><mark>style</mark></code>. Adicione o CSS necessário para transformar a cor de todos os elementos <code><mark>h2</mark></code> em azul.
   </p>
 </body>
 </html>
