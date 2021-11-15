@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Usar um atributo id para definir o estilo de um elemento</title>
+</head>
+<body>
+  <h1>Usar um atributo id para definir o estilo de um elemento</h1>
+  <p>
+    Uma coisa interessante sobre os atributos <code><mark>id</mark></code> é que, assim como as classes, você pode estilizá-los usando CSS.
+
+    <br><br>
+
+    No entanto, um <code><mark>id</mark></code> não é reutilizável e deve ser aplicado apenas a um elemento. Um <code><mark>id</mark></code> também tem uma especificidade (importância) mais alta do que uma classe, portanto, se ambos forem aplicados ao mesmo elemento e tiverem estilos conflitantes, os estilos do <code><mark>id</mark></code> serão aplicados.
+
+    <br><br>
+
+    Aqui está um exemplo de como você pode pegar seu elemento com o atributo <code><mark>id</mark></code> de <code><mark>cat-photo-element</mark></code> e dar a ele a cor de fundo verde. No elemento <code><mark>style</mark></code>:
+
+    <br>
+
+    <div>
+      <code>
+        #cat-photo-element {
+          <br>
+          &nbsp; background-color: green;
+          <br>
+        }
+      </code>
+    </div>
+    
+    <br>
+
+    Observe que, dentro do elemento <code><mark>style</mark></code>, você sempre faz referência às classes colocando um <code><mark>.</mark></code> na frente de seus nomes. Você sempre faz referência aos ids colocando um <code><mark>#</mark></code> na frente de seus nomes.
+
+    <br><br>
+
+    Tente dar ao seu formulário, que agora tem o atributo <code><mark>id</mark></code> de <code><mark>cat-photo-form</mark></code>, um fundo verde.
+  </p>
+</body>
+</html>
