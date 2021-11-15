@@ -12,48 +12,55 @@
 
 <hr>
 
-Recolher cursos
-Alterar a cor do texto
-Usar seletores CSS para definir o estilo de elementos
-Usar uma classe para definir o estilo de um elemento
-Estilizar vários elementos com apenas uma classe CSS
-Alterar o tamanho da fonte de um elemento
-Definir a família tipográfica de um elemento
-Importar uma tipografia do Google
-Especificar soluções para quando uma tipografia não estiver disponível
-Alterar o tamanho de imagens
-Adicionar bordas ao redor dos elementos
-Criar cantos arredondados em um elemento com border-radius
-Criar imagens redondas com border-radius
-Criar uma cor de fundo em um elemento div
-Definir o id de um elemento
-Usar um atributo id para definir o estilo de um elemento
-Ajustar o espaçamento de um elemento
-Ajustar a margem de um elemento
-Adicionar margem negativa a um elemento
-Adicionar diferentes preenchimentos a cada lado de um elemento
-Adicionar diferentes margens a cada lado de um elemento
-Usar a notação de sentido horário para especificar o preenchimento (padding) de um elemento
-Usar a notação no sentido horário para especificar a margem de um elemento
-Usar seletores de atributo para estilizar elementos
-Diferenciar entre unidades absolutas e relativas
-Estilizar o elemento HTML body
-Herdar estilos do elemento body
-Priorizar um estilo em detrimento de outro
-Substituir estilos no CSS baseado na ordem de aparição
-Sobrescrever estilos de classes por estilos de ID
-Sobrescrever estilos de classe com estilos inline
-Sobrescrever todos os outros estilos usando a palavra important
-Usar códigos hexadecimais para selecionar cores específicas
-Usar código hexadecimal para misturar cores
-Usar códigos hexadecimais de modo abreviado
-Usar valores RGB para colorir elementos
-Usar RGB para misturar cores
-Usar variáveis CSS para alterar vários elementos de uma só vez
-Criar variáveis no CSS
-Usar variáveis CSS
-Definir um valor reserva para uma variável CSS
-Melhorar a compatibilidade do CSS com navegadores antigos
-Herdar variáveis no CSS
-Alterar uma variável em uma área específica
-Usar media queries para mudar o valor de uma variável
+<ul>
+  <li>Recolher cursos</li>
+  <li>Alterar a cor do texto</li>
+  <li>Usar seletores CSS para definir o estilo de elementos</li>
+  <li>Usar uma classe para definir o estilo de um elemento</li>
+  <li>Estilizar vários elementos com apenas uma classe CSS</li>
+  <li>Alterar o tamanho da fonte de um elemento</li>
+  <li>Definir a família tipográfica de um elemento</li>
+  <li>Importar uma tipografia do Google</li>
+  <li>Especificar soluções para quando uma tipografia não estiver disponível</li>
+  <li>Alterar o tamanho de imagens</li>
+  <li>Adicionar bordas ao redor dos elementos</li>
+  <li>Criar cantos arredondados em um elemento com border-radius</li>
+  <li>Criar imagens redondas com border-radius</li>
+  <li>Criar uma cor de fundo em um elemento div</li>
+  <li>Definir o id de um elemento</li>
+  <li>Usar um atributo id para definir o estilo de um elemento</li>
+  <li>Ajustar o espaçamento de um elemento</li>
+  <li>Ajustar a margem de um elemento</li>
+  <li>Adicionar margem negativa a um elemento</li>
+  <li>Adicionar diferentes preenchimentos a cada lado de um elemento</li>
+  <li>Adicionar diferentes margens a cada lado de um elemento</li>
+  <li>Usar a notação de sentido horário para especificar o preenchimento (padding) de um elemento</li>
+  <li>Usar a notação no sentido horário para especificar a margem de um elemento</li>
+  <li>Usar seletores de atributo para estilizar elementos</li>
+  <li>Diferenciar entre unidades absolutas e relativas</li>
+  <li>Estilizar o elemento HTML body</li>
+  <li>Herdar estilos do elemento body</li>
+  <li>Priorizar um estilo em detrimento de outro</li>
+  <li>Substituir estilos no CSS baseado na ordem de aparição</li>
+  <li>Sobrescrever estilos de classes por estilos de ID</li>
+  <li>Sobrescrever estilos de classe com estilos inline</li>
+  <li>Sobrescrever todos os outros estilos usando a palavra important</li>
+  <li>Usar códigos hexadecimais para selecionar cores específicas</li>
+  <li>Usar código hexadecimal para misturar cores</li>
+  <li>Usar códigos hexadecimais de modo abreviado</li>
+  <li>Usar valores RGB para colorir elementos</li>
+  <li>Usar RGB para misturar cores</li>
+  <li>Usar variáveis CSS para alterar vários elementos de uma só vez</li>
+  <li>Criar variáveis no CSS</li>
+  <li>Usar variáveis CSS</li>
+  <li>Definir um valor reserva para uma variável CSS</li>
+  <li>Melhorar a compatibilidade do CSS com navegadores antigos</li>
+  <li>Herdar variáveis no CSS</li>
+  <li>Alterar uma variável em uma área específica</li>
+  <li>Usar media queries para mudar o valor de uma variável</li>
+</ul>
+
+<hr>
+
+<h4><b>Curso:</b> :green_book: :books: 44 capítulos</h4>
+<h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
