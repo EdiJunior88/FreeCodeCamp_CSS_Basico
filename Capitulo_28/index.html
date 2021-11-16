@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Substituir estilos no CSS baseado na ordem de aparição</title>
+</head>
+<body>
+  <h1>Substituir estilos no CSS baseado na ordem de aparição</h1>
+  <p>
+    <mark>A classe <code>pink-text</code> sobrescreveu a declaração de estilo do elemento <code>body</code>!</mark>
+
+    <br><br>
+
+    Com isso, podemos perceber que classes sobrescrevem os estilos declarados no elemento <code><mark>body</mark></code>. Isso nos leva à pergunta: o que podemos fazer para substituir a classe <code><mark>pink-text</mark></code>?
+
+    <br><br>
+
+    Crie uma classe CSS adicional chamada <code><mark>blue-text</mark></code> que dá a um elemento a cor azul. Certifique-se de que esta nova classe esteja abaixo da classe <code><mark>pink-text</mark></code>.
+
+    <br><br>
+
+    Além de classe <code><mark>pink-text</mark></code>, aplique a classe <code><mark>blue-text</mark></code> ao elemento <code><mark>h1</mark></code>, e vamos ver qual tem maior prioridade.
+
+    <br><br>
+
+    A aplicação de várias classes a um mesmo elemento HTML é feita com um espaço entre cada uma, assim:
+
+    <br>
+    
+    <div>
+      <code>
+        class="class1 class2"
+      </code>
+    </div>
+    
+    <br>
+
+    <strong>Observação</strong>: a ordem das classes dentro do atributo "class" não é importante.
+
+    <br><br>
+    
+    O importante é a ordem em que as classes (<code><mark>class</mark></code>) são declaradas dentro da tag <code><mark>&ltstyle&gt</mark></code>. A última declaração sempre terá prioridade sobre a anterior. Como a classe <code><mark>.blue-text</mark></code> é declarada por último, ela sobrescreve os estilos que foram declarados na classe <code><mark>.pink-text</mark></code>
+  </p>
+</body>
+</html>
