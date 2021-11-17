@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Sobrescrever todos os outros estilos usando a palavra important</title>
+</head>
+<body>
+  <h1>Sobrescrever todos os outros estilos usando a palavra important</h1>
+  <p>
+    Uhuu! Acabamos de provar que os estilos inline sobrescrevem todas as declarações CSS feitas no elemento <code><mark>style</mark></code>.
+
+    <br><br>
+
+    Mas veja bem. Existe mais uma forma de sobrescrever o CSS que declaramos anteriormente. Este é o método mais poderoso de todos. Mas antes de continuarmos, vamos falar sobre o motivo de você querer substituir o CSS.
+
+    <br><br>
+
+    Em muitas situações, você usará bibliotecas CSS. E elas podem, acidentalmente, substituir o CSS. Portanto, quando você precisar ter certeza absoluta de que um elemento deve possuir um CSS específico, poderá usar <code><mark>!important</mark></code>.
+
+    <br><br>
+
+    Vamos voltar à nossa classe <code><mark>pink-text</mark></code>. Lembre-se de que a classe <code><mark>pink-text</mark></code> foi sobrescrita por declarações de classe posteriores, declarações de id e estilos inline.
+
+    <br><br>
+
+    Vamos adicionar a palavra-chave <code><mark>!important</mark></code> à declaração de estilo do elemento <code><mark>h1</mark></code> para ter 100% de certeza de que ele terá a cor de texto rosa.
+
+    <br><br>
+
+    Um exemplo de como fazer isso:
+
+    <br>
+
+    <div>
+      <code>
+        color: red !important;
+      </code>
+    </div>
+  </p>
+</body>
+</html>
