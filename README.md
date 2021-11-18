@@ -62,7 +62,9 @@
 
 <strong>Página do Projeto:</strong> <a href="https://edijunior88.github.io/FreeCodeCamp_CSS_Basico/">https://edijunior88.github.io/FreeCodeCamp_CSS_Basico/</a>
 
-![index-image](index-image.png)
+<hr>
+
+![index-image](index-image.jpeg)
 
 <hr>
 
