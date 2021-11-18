@@ -69,4 +69,4 @@
 <hr>
 
 <h4><b>Curso:</b> :green_book: :books: 44 capítulos</h4>
-<h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
+<h4><b>Status do Curso:</b> :white_check_mark: Concluído</h4>
