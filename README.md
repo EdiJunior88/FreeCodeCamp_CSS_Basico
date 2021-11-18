@@ -60,5 +60,13 @@
 
 <hr>
 
+<strong>Página do Projeto:</strong> <a href="https://edijunior88.github.io/FreeCodeCamp_CSS_Basico/">https://edijunior88.github.io/FreeCodeCamp_CSS_Basico/</a>
+
+<br>
+
+
+
+<hr>
+
 <h4><b>Curso:</b> :green_book: :books: 44 capítulos</h4>
 <h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
