@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Usar variáveis CSS</title>
+</head>
+<body>
+  <h1>Usar variáveis CSS</h1>
+  <p>
+    Depois de criar a variável, você pode atribuir o valor dela a outras propriedades CSS, referenciando o nome que você deu a ela.
+
+    <br>
+
+    <div>
+      <code>
+        background: var(--penguin-skin);
+      </code>
+    </div>
+    
+    <br>
+
+    O código acima mudará o fundo de qualquer elemento para cinza, porque esse é o valor da variável <code><mark>--penguin-skin</mark></code>. Tenha em mente que os estilos não serão aplicados a menos que o nome da variável que está sendo chamada seja igual ao nome da variável declarada.
+
+    <br><br>
+
+    Aplique a variável <code><mark>--penguin-skin</mark></code> à propriedade <code><mark>background</mark></code> das classes <code><mark>penguin-top</mark></code>, <code><mark>penguin-bottom</mark></code>, <code><mark>right-hand</mark></code> e <code><mark>left-hand</mark></code>.
+  </p>
+</body>
+</html>
