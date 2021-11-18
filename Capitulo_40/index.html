@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Definir um valor reserva para uma variável CSS</title>
+</head>
+<body>
+  <h1>Definir um valor reserva para uma variável CSS</h1>
+  <p>
+    Ao usar uma variável como o valor de uma propriedade no CSS, você pode definir um valor reserva (fallback) que seu navegador usará se a variável for inválida.
+
+    <br><br>
+
+    <strong>Observação</strong>: esse valor reserva não é utilizado para aumentar a compatibilidade do seu código entre navegadores e não funcionará no Internet Explorer. Em vez disso, ele é usado quando o navegador não encontra a variável.
+
+    <br><br>
+
+    Veja como você pode fazer isso:
+
+    <br>
+
+    <div>
+      <code>
+        background: var(--penguin-skin, black);
+      </code>
+    </div>
+
+    <br>
+
+    O exemplo acima fará com que a propriedade background (plano de fundo) tenha o valor <code><mark>black</mark></code> caso a variável não tenha sido definida. Perceba que isso pode ser útil para debugging (depuração).
+
+    <br><br>
+
+    Parece que há um problema com as variáveis fornecidas para as classes <code><mark>.penguin-top</mark></code> e <code><mark>.penguin-bottom</mark></code>. Ao invés de corrigir o erro de digitação, defina um valor reserva na propriedade <code><mark>background</mark></code> das classes <code><mark>.penguin-top</mark></code> e <code><mark>.penguin-bottom</mark></code>. O valor reserva deve ser <code><mark>black</mark></code>.
+  </p>
+</body>
+</html>
