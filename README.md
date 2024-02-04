@@ -10,6 +10,12 @@
 
 <hr>
 
+<h3>Tecnologias Utilizadas</h3>
+
+Para ver todas as tecnologias [clique aqui](/techstack.md)
+
+<hr>
+
 <ul>
   <li>Recolher cursos</li>
   <li>Alterar a cor do texto</li>
