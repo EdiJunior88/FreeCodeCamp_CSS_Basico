@@ -1,0 +1,30 @@
+repo_name: EdiJunior88/FreeCodeCamp_CSS_Basico
+report_id: c8126c55a283b33ad32ca99d5b9d0917
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T14:40:07+00:00'
+requested_by: EdiJunior88
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/EdiJunior88/FreeCodeCamp_CSS_Basico
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/EdiJunior88/FreeCodeCamp_CSS_Basico
+  detection_source: Repo Metadata
